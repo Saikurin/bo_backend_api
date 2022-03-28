@@ -18,6 +18,7 @@ class Products(models.Model):
     name = models.CharField(max_length=255)
     quantity_stock = models.IntegerField()
     quantity_sold = models.IntegerField()
+    price_on_purchase = models.FloatField()
 
     class Meta:
         db_table = 'products'

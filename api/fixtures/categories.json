@@ -1,0 +1,23 @@
+[
+  {
+    "model": "categories.categories",
+    "pk": 1,
+    "fields": {
+      "name": "Fruits de mer"
+    }
+  },
+  {
+    "model": "categories.categories",
+    "pk": 2,
+    "fields": {
+      "name": "Crustacés"
+    }
+  },
+  {
+    "model": "categories.categories",
+    "pk": 3,
+    "fields": {
+      "name": "Poissons"
+    }
+  }
+]

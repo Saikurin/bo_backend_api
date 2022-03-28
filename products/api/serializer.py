@@ -11,7 +11,7 @@ class ProductsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Products
         fields = ["id", "comments", "category", "availability", "price", "price_on_sale", "discount", "sale", "owner",
-                  "unit", "name", "quantity_stock", "quantity_sold", "histories"]
+                  "unit", "name", "quantity_stock", "quantity_sold", "price_on_purchase", "histories"]
 
     def validate(self, data):
         if data['price_on_sale'] > data['price']:
@@ -28,7 +28,7 @@ class ProductsUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Products
         fields = ["id", "comments", "category", "availability", "price", "price_on_sale", "discount", "sale", "owner",
-                  "unit", "name", "quantity_stock", "quantity_sold"]
+                  "unit", "name", "quantity_stock", "price_on_purchase", "quantity_sold"]
 
     def validate(self, data):
         if data['price_on_sale'] > data['price']:

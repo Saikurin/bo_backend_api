@@ -1,0 +1,287 @@
+[
+  {
+    "model": "products.products",
+    "pk": 6,
+    "fields": {
+      "comments": "",
+      "category_id": 2,
+      "availability": true,
+      "price": 7,
+      "price_on_sale": 6,
+      "discount": 5,
+      "sale": true,
+      "owner": "tig",
+      "unit": "kg",
+      "name": "Moules de pêche",
+      "quantity_stock": 20,
+      "quantity_sold": 50,
+      "price_on_purchase": 3
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 1,
+    "fields": {
+      "unit": "2 filets",
+      "category_id": 3,
+      "name": "Filet Bar de ligne",
+      "discount": 0,
+      "comments": "environ 300g",
+      "owner": "tig",
+      "price": 7,
+      "price_on_sale": 7,
+      "sale": false,
+      "availability": true,
+      "quantity_stock": 60,
+      "quantity_sold": 100,
+      "price_on_purchase": 3
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 9,
+    "fields": {
+      "availability": false,
+      "price": 7,
+      "price_on_sale": 7,
+      "discount": 0,
+      "name": "Araignées",
+      "comments": "Hors saison, pêche aux casiers",
+      "owner": "tig",
+      "unit": "kg",
+      "category_id": 1,
+      "sale": false,
+      "quantity_stock": 30,
+      "quantity_sold": 10,
+      "price_on_purchase": 3
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 10,
+    "fields": {
+      "name": "Bouquets cuits",
+      "sale": false,
+      "category_id": 2,
+      "price": 8,
+      "price_on_sale": 8,
+      "availability": false,
+      "unit": "100g",
+      "owner": "tig",
+      "comments": "Hors saison, pêche à l'épuisette",
+      "discount": 0,
+      "quantity_stock": 40,
+      "quantity_sold": 60,
+      "price_on_purchase": 5
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 7,
+    "fields": {
+      "unit": "Dz",
+      "comments": "",
+      "availability": true,
+      "category_id": 2,
+      "name": "Huitres N°2 St Vaast",
+      "price": 9.5,
+      "price_on_sale": 9.5,
+      "sale": false,
+      "owner": "tig",
+      "discount": 0,
+      "quantity_stock": 20,
+      "quantity_sold": 80,
+      "price_on_purchase": 4
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 2,
+    "fields": {
+      "owner": "tig",
+      "name": "Bar de ligne portion",
+      "category_id": 3,
+      "unit": "pièce",
+      "comments": "Environ 550-700g la pièce",
+      "sale": false,
+      "price": 10,
+      "price_on_sale": 10,
+      "discount": 0,
+      "availability": true,
+      "quantity_stock": 10,
+      "quantity_sold": 100,
+      "price_on_purchase": 6
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 12,
+    "fields": {
+      "comments": "Pêche à la corde",
+      "category_id": 3,
+      "discount": 0,
+      "name": "Aile de raie",
+      "sale": false,
+      "availability": true,
+      "owner": "tig",
+      "price": 10,
+      "price_on_sale": 10,
+      "unit": "kg",
+      "quantity_stock": 20,
+      "quantity_sold": 20,
+      "price_on_purchase": 5
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 13,
+    "fields": {
+      "unit": "Dz",
+      "sale": false,
+      "price": 12,
+      "price_on_sale": 12,
+      "availability": true,
+      "name": "Huîtres N°2 OR St Vaast",
+      "discount": 0,
+      "comments": "Médaille d'or Salon Agriculture",
+      "category_id": 2,
+      "owner": "tig",
+      "quantity_stock": 20,
+      "quantity_sold": 100,
+      "price_on_purchase": 7
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 4,
+    "fields": {
+      "name": "Lieu jaune de ligne",
+      "availability": true,
+      "unit": "kg",
+      "sale": false,
+      "category_id": 3,
+      "owner": "tig",
+      "discount": 0,
+      "comments": "Environ 550-700g la portion",
+      "price": 12,
+      "price_on_sale": 12,
+      "quantity_stock": 30,
+      "quantity_sold": 80,
+      "price_on_purchase": 7
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 5,
+    "fields": {
+      "availability": false,
+      "unit": "kg",
+      "owner": "tig",
+      "discount": 0,
+      "price": 19,
+      "price_on_sale": 19,
+      "category_id": 3,
+      "name": "Filet Julienne",
+      "sale": false,
+      "comments": "Pêche à la corde",
+      "quantity_stock": 10,
+      "quantity_sold": 70,
+      "price_on_purchase": 10
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 16,
+    "fields": {
+      "sale": false,
+      "category_id": 2,
+      "price": 19,
+      "price_on_sale": 19,
+      "unit": "2 Dz",
+      "discount": 0,
+      "name": "Huîtres N°2 St Vaast",
+      "owner": "tig",
+      "availability": true,
+      "comments": "",
+      "quantity_stock": 20,
+      "quantity_sold": 100,
+      "price_on_purchase": 12
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 14,
+    "fields": {
+      "owner": "tig",
+      "sale": false,
+      "availability": true,
+      "category_id": 2,
+      "unit": "2 Dz",
+      "discount": 0,
+      "comments": "Médaille d'or salon agriculture",
+      "price": 24,
+      "price_on_sale": 24,
+      "name": "Huîtres N°2 OR St Vaast",
+      "quantity_stock": 20,
+      "quantity_sold": 100,
+      "price_on_purchase": 16
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 3,
+    "fields": {
+      "discount": 0,
+      "availability": true,
+      "owner": "tig",
+      "name": "Bar de ligne",
+      "category_id": 3,
+      "sale": false,
+      "comments": "Plus de 1.5kg le poisson",
+      "unit": "kg",
+      "price": 30,
+      "price_on_sale": 30,
+      "quantity_stock": 10,
+      "quantity_sold": 100,
+      "price_on_purchase": 19
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 8,
+    "fields": {
+      "discount": 0,
+      "name": "Huitres N°2 St Vaast",
+      "owner": "tig",
+      "comments": "",
+      "availability": true,
+      "category_id": 2,
+      "price": 38,
+      "price_on_sale": 38,
+      "unit": "4 Dz",
+      "sale": false,
+      "quantity_stock": 20,
+      "quantity_sold": 100,
+      "price_on_purchase": 25
+    }
+  },
+  {
+    "model": "products.products",
+    "pk": 15,
+    "fields": {
+      "discount": 0,
+      "name": "Huîtres N°2 OR St Vaast",
+      "sale": false,
+      "category_id": 2,
+      "availability": true,
+      "unit": "4 Dz",
+      "comments": "Médaille d'or salon agriculture",
+      "price": 48,
+      "price_on_sale": 48,
+      "owner": "tig",
+      "quantity_stock": 20,
+      "quantity_sold": 100,
+      "price_on_purchase": 30
+    }
+  }
+]
