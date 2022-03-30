@@ -11,6 +11,7 @@ class Histories(models.Model):
     product = models.ForeignKey(Products, on_delete=models.CASCADE, related_name="histories")
     quantity = models.IntegerField()
     type = models.CharField(max_length=255)
+    price = models.FloatField()
 
     class Meta:
         db_table = 'histories'

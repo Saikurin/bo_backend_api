@@ -1,0 +1,79 @@
+[
+  {
+    "model": "histories.histories",
+    "pk": 1,
+    "fields": {
+      "quantity": 20,
+      "type": "ajout",
+      "product_id": 6,
+      "created_at": "2022-01-01 15:44:00+00:00",
+      "price": 0
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 2,
+    "fields": {
+      "quantity": 5,
+      "type": "retrait-par-vente",
+      "product_id": 6,
+      "created_at": "2022-03-01 15:44:00+00:00",
+      "price": 7
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 3,
+    "fields": {
+      "quantity": 10,
+      "type": "retrait-par-vente",
+      "product_id": 6,
+      "created_at": "2022-02-01 15:44:00+00:00",
+      "price": 7
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 4,
+    "fields": {
+      "quantity": 5,
+      "type": "retrait-par-vente",
+      "product_id": 6,
+      "created_at": "2022-03-01 15:44:00+00:00",
+      "price": 7
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 5,
+    "fields": {
+      "quantity": 40,
+      "type": "ajout",
+      "product_id": 9,
+      "created_at": "2022-01-02 15:44:00+00:00",
+      "price": 7
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 6,
+    "fields": {
+      "quantity": 11,
+      "type": "retrait-par-vente",
+      "product_id": 9,
+      "created_at": "2022-01-20 15:44:00+00:00",
+      "price": 7
+    }
+  },
+  {
+    "model": "histories.histories",
+    "pk": 7,
+    "fields": {
+      "quantity": 11,
+      "type": "retrait-par-vente",
+      "product_id": 9,
+      "created_at": "2022-01-20 15:44:00+00:00",
+      "price": 8
+    }
+  }
+]

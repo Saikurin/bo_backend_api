@@ -3,11 +3,11 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from products.models import Products
-from .serializer import ProductsSerializer, ProductsUpdateSerializer
+from .serializer import ProductsSerializer, ProductsUpdateSerializer, ProductWithHistoriesSerializer
 
 
 class ProductsView(viewsets.ModelViewSet):
-    serializer_class = ProductsSerializer
+    serializer_class = ProductWithHistoriesSerializer
 
     def get_queryset(self):
         return Products.objects.all()
@@ -19,4 +19,11 @@ class ProductsView(viewsets.ModelViewSet):
             productUpdate = ProductsUpdateSerializer(product, item)
             if productUpdate.is_valid():
                 productUpdate.save()
+        return Response(True)
+
+    def update(self, request, *args, **kwargs):
+        product = Products.objects.get(pk=request.data['id'])
+        productUpdate = ProductsSerializer(product, request.data)
+        if productUpdate.is_valid(raise_exception=True):
+            productUpdate.save()
         return Response(True)
