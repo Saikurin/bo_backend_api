@@ -1,5 +1,6 @@
 from rest_framework import viewsets
 from rest_framework.decorators import action
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from products.models import Products
@@ -8,6 +9,7 @@ from .serializer import ProductsSerializer, ProductsUpdateSerializer, ProductWit
 
 class ProductsView(viewsets.ModelViewSet):
     serializer_class = ProductWithHistoriesSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         return Products.objects.all()
